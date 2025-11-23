@@ -10,7 +10,7 @@ import AddProductModal from './components/AddProductModal';
 
 import './App.css';
 
-const BACKEND_URL = 'http://localhost:5000/api/products'; // Update for deployed backend
+const BACKEND_URL = 'https://kmkk-product-inventory.onrender.com/api/products'; // Update for deployed backend
 
 function App() {
   const [products, setProducts] = useState([]);
