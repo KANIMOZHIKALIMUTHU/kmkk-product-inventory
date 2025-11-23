@@ -1,0 +1,25 @@
+.search-bar {
+  width: 100%;
+  max-width: 350px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #007acc;
+  border-radius: 6px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 122, 204, 0.2);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-bar::placeholder {
+  color: #a0a0a0;
+  font-style: italic;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #005fa3;
+  box-shadow: 0 0 8px rgba(0, 95, 163, 0.5);
+}
+
